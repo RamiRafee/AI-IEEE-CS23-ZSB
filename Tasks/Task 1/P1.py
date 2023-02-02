@@ -14,8 +14,8 @@ list1 = list(list1)##to remove duplicates
 list1.sort()
 
 if(len(list1)>1):
-    print(list1[len(list1)-2])
-    print(list1[1])
+    print(list1[len(list1)-2])##second largest
+    print(list1[1])##second smallest
 else:
     print(list1[0])
     print(list1[0])
