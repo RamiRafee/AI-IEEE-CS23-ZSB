@@ -39,6 +39,7 @@ def firstLastAppearance(array,target):
             found = True
         elif(array[i] != target and found):
             firstLast.append(i-1)
+            break
     return firstLast
 
 if __name__ == "__main__":
