@@ -28,7 +28,7 @@ if __name__ == "__main__":
     maxSum=array[len(array)-1]
     for i in range(len(array)):
         ##
-        if(array[i] + maxSum > maxSum and array[i] != maxSub[0]):
+        if(array[i] + maxSum > maxSum and i != len(array)-1):
             maxSum = array[i] + maxSum
             maxSub.append(array[i])
             
@@ -39,7 +39,7 @@ if __name__ == "__main__":
             
         ##
         
-        elif(array[i] + minSum< minSum and array[i] != minSub[0]):
+        elif(array[i] + minSum< minSum and i !=0):
             minSum = array[i] + minSum
             minSub.append(array[i])
             
