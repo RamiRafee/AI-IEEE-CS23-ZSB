@@ -83,7 +83,7 @@ def mean(lst: list)->float:
 
 
 print("Input:")
-
+lst=[]
 while True:
     try:
         splitted = input().split()
