@@ -95,7 +95,6 @@ while True:
         print("Ended")
         break
 if(lst):
-    print("output:")
     print("Mean :%0.3f"%(mean(lst)))
     print("Median :%0.2f"%(median(lst)))
     print("Mode :{}".format(list(mode(lst).keys())))
