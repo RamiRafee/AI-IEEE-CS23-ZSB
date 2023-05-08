@@ -78,7 +78,7 @@ class Solution:
 
             return [solution,finish_in+1,start+1] ## adding one to handle the exclusive slicing in python when deleting
    
-    def trap(self, height: list[int]) -> int:
+    def trap(self, height: list) -> int:
         solution = 0
         
         
